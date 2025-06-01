@@ -25,13 +25,19 @@ header{
     padding: 0 50px;
     margin: 0 auto;
     height: 100%;
-
+    background-color: #fff;
+    box-shadow:0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important
 }
 nav{
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header_icon{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .nav_ul{
@@ -82,6 +88,17 @@ nav{
 
 .about_txt_box{
     width: 53%;
+    display: flex;
+    align-items: center;
+}
+
+.Career{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    gap: 2%;
+    height: 100px;
 }
 
 
