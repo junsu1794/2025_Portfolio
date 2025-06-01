@@ -1,5 +1,5 @@
 :root {
-    --gap: 3rem;
+    --spacing: 7rem; 
     --duration: 40s;
   }
 
@@ -52,7 +52,7 @@ nav{
 }
 
 .about_inner{
-    width: 100%;
+    width: 84%;
     height: 100%;
     padding: 5vw 8vw;
 }
@@ -82,7 +82,6 @@ nav{
 
 .about_txt_box{
     width: 53%;
-    background-color: brown;
 }
 
 
@@ -102,16 +101,15 @@ nav{
 )
 }
 .skill_img img{
+    margin-right: var(--spacing);
     transition: all .2s ease;
 }
 
-.skill_img{
+.skill_img {
     flex-shrink: 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: var(--gap);
-    min-width: 100%;
+    min-width: max-content;
     animation: scroll-x var(--duration) linear infinite;
-}
+  }
 
